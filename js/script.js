@@ -9,7 +9,7 @@ function Book(title, author, pageCount, hasRead) {
         readStatus = "not read yet";
     }
     this.info = function() {
-        console.log(title + ' by ' + author + ', ' + pageCount + ' pages, ' + readStatus)
+        console.log(`${title} by ${author}, ${pageCount} pages, ${readStatus}`)
     }
 }
 
